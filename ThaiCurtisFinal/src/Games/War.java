@@ -41,7 +41,7 @@ public class War {
 		}
 		else
 		{
-			System.exit(0);
+			System.exit(0);gtrgtthr
 		}
 	}
 	
@@ -64,7 +64,7 @@ public class War {
 				System.out.println("Player1's score is now: " + score);
 				
 					
-			}
+			} 
 			if(player2 > player1)
 			{
 				score ++;
