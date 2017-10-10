@@ -43,17 +43,12 @@ public class War {
 			System.out.println("Player2's number is: " + player2);
 			break;
 		}
-		if(player1 > player2)
+		while(choice != 1)
 		{
-			score ++;
-			System.out.println("Player1's score is now: " + score);
-			
-				
+			System.out.println("You have exited the program");
+			break;
 		}
-		if(player2 > player1)
-		{
-			score ++;
-			System.out.println("Player2's score is now: " + score);
+		
 //		else
 //		{
 //			System.out.println("You answered no");
