@@ -12,6 +12,8 @@ public class War2 {
 		int  player2 = rand.nextInt(50) + 1;
 		int player1score = 0;
 		int player2score = 0;
+		int player1score2 = 0;
+		int player2score2 = 0;
 		int choice;
 		
 		
@@ -30,14 +32,25 @@ public class War2 {
 			player2score ++;
 			System.out.println("Player2's score is now: " + player2score);
 			
-			
+		while(player1score != 10)
+		{
+			System.out.println("")
+		}
 		}System.out.println("Would you like to play again? '1' for Yes, '2' for No");
 		choice = input.nextInt();
 		
 		while(choice == 1)
 		{
+			main(null);
+		}
+		if (player1 > player2)
+		{
+			player1score2 ++;
+			System.out.println("Player1's score is now: " + player1score  + player1score2  );
 			
 		}
+		
+		
 		
 	}
 }
