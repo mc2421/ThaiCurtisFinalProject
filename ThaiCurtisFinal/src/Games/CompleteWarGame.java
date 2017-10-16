@@ -55,7 +55,8 @@ public class CompleteWarGame {
 		
 		while(choice == 2)
 		{
-			System.out.println("player1's final score is: " + player1score + " Player2's final score is: " + player2score );
+			System.out.println("Player1's final score is: " + player1score);
+			System.out.println("Player2's final score is: " + player2score);
 			break;
 		}
 		
