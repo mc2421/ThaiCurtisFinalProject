@@ -14,8 +14,8 @@ public class CompleteWarGame {
 		do {
 			Random rand = new Random(); // this along with lines 20 & 21 are what make up the random integer
 	
-			int  player1 = rand.nextInt(50) + 1;// This controls the random integer for player 1 making sure it is less than 50 
-			int  player2 = rand.nextInt(50) + 1;// This controls the random integer for player 2 making sure it is also less than 50
+			int  player1 = rand.nextInt(26) + 1;// This controls the random integer for player 1 making sure it is less than 50 
+			int  player2 = rand.nextInt(26) + 1;// This controls the random integer for player 2 making sure it is also less than 50
 			System.out.println("Player1's number is: " + player1);
 			System.out.println("Player2's number is: " + player2);
 		
@@ -33,6 +33,10 @@ public class CompleteWarGame {
 				System.out.println("Player1's score is now: " + player1score);//and display what each others 
 				System.out.println("Player2's score is now: " + player2score);//scores are now
 		
+			}
+			if(player1 == player2)
+			{
+				System.out.println("It's a tie. No-one gets a point");
 			}
 			System.out.println("Would you like to play again? '1' for Yes, '2' for No");//Option to play again
 			choice = input.nextInt();
