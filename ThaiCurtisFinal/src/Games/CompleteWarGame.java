@@ -47,6 +47,7 @@ public class CompleteWarGame {
 		{
 			System.out.println("Player1's final score is: " + player1score);// stop playing the game and
 			System.out.println("Player2's final score is: " + player2score);// print out the players final scores
+			
 			break;
 		}
 		
