@@ -3,6 +3,9 @@ import java.util.Random;
 import java.util.Scanner;
 public class CompleteWarGame {
 	static Scanner input = new Scanner (System.in);
+	public class TicTacToe {
+		
+	}
 	public static void main(String[] args) 
 	{
 
@@ -36,9 +39,9 @@ public class CompleteWarGame {
 			}
 			if(player1 == player2)
 			{
-				System.out.println("It's a tie. No-one gets a point");
+				System.out.println("It's a tie. No one gets a point.");
 			}
-			System.out.println("Would you like to play again? '1' for Yes, '2' for No");//Option to play again
+			System.out.println("Would you like to play again? '1' for Yes, '2' for No>>>");//Option to play again
 			choice = input.nextInt();
 		}while(choice == 1);//go up the program to the do { and repeat the method
 		
