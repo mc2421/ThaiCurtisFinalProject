@@ -3,9 +3,6 @@ import java.util.Random;
 import java.util.Scanner;
 public class CompleteWarGame {
 	static Scanner input = new Scanner (System.in);
-	public class TicTacToe {
-		
-	}
 	public static void main(String[] args) 
 	{
 
@@ -17,8 +14,8 @@ public class CompleteWarGame {
 		do {
 			Random rand = new Random(); // this along with lines 20 & 21 are what make up the random integer
 	
-			int  player1 = rand.nextInt(26) + 1;// This controls the random integer for player 1 making sure it is less than 50 
-			int  player2 = rand.nextInt(26) + 1;// This controls the random integer for player 2 making sure it is also less than 50
+			int  player1 = rand.nextInt(26) + 1;// This controls the random integer for player 1 making sure it is less than 26 
+			int  player2 = rand.nextInt(26) + 1;// This controls the random integer for player 2 making sure it is also less than 
 			System.out.println("Player1's number is: " + player1);
 			System.out.println("Player2's number is: " + player2);
 		
@@ -54,7 +51,7 @@ public class CompleteWarGame {
 			break;
 		}
 		
-		
+		private class 
 		
 		
 	}
